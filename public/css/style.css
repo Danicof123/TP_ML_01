@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Variables */
+:root{
+    /* Colroes */
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --grisClaro: #ebebeb;
+    --verde: #39b54a;
+
+    /* Tipografias */
+    --roboto: 'Roboto', sans-serif;
+    --cuerpo: 12px;
+    --titular: 24px;
+    --precio: 18px;
+    --descuento: 16px;
+    --descripcion: 16px;
+}
+/* Reseteos */
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+body{
+    margin: 0;
+    font-size: var(--cuerpo);
+}
