@@ -29,5 +29,9 @@ html{
 }
 body{
     margin: 0;
+    font-family: var(--roboto);
     font-size: var(--cuerpo);
 }
+
+/*--------------------------------------- HEADER ---------------------------------------*/
+
